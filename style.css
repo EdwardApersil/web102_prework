@@ -77,3 +77,10 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.unfunded-games-message{
+    background-color: #a8b0bc;
+    padding: 5px;
+    width: 300px;
+    font-weight: bolder;
+}

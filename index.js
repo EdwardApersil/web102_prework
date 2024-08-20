@@ -171,6 +171,9 @@ const unfundedMessage = `There are ${totalUnfoundedGames} unfunded games.`;
 // create a new DOM element containing the template string and append it to the description container
 const createDiv = document.createElement('div');
 
+createDiv.classList.add("unfunded-games-message");
+
+
 createDiv.innerHTML = `
     <p>${unfundedMessage}</p>
 `
